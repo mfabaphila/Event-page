@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+}
+
+.hero-text{
+    display: flex;
+    padding: 20px;
+   }
+    
