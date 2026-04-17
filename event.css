@@ -3,16 +3,82 @@
     padding: 20px;
     justify-content: space-between;
     margin-left: 100px;
+    background-color: whitesmoke;
+    align-items: center;
+   
+}
+
+.header img{
+    width: 400px;
+    height: 80px;
+}
+
+.header button{
+  
+    background-color: green;
+   padding: 10px 18px;
+   color: azure;
+   font-weight: 700;
+   cursor: pointer;
+   height: 50px;
+   width: 120px;
+   border-radius: 10px;
+   font-size: large;
 }
 
 .menu{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     margin-right: 100px;
+    color: rgb(117, 113, 113);
+    cursor: pointer;
+}
+
+
+.hero{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.hero > img{
+width: 400px;
+height: 450px;
+background-color: beige;
 }
 
 .hero-text{
     display: flex;
-    padding: 20px;
-   }
-    
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 100px;
+   background-color: beige;
+   height: 500px;
+}
+.hero-text button{
+    background-color: green;
+    height: 50px;
+    width: 400px;
+    margin-left: 130px;
+    border-radius: 10PX;
+    color: azure;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+
+.hero-text h1, h3{
+text-align: center;
+}
+
+.hero-text input{
+margin: 0 20px;
+border-radius: 5px;
+font-size: medium;
+}
+
+.radio{
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgb(117, 113, 113);
+}
