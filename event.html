@@ -17,7 +17,7 @@
                     <h3 style="color:green; border-bottom :3px solid green; display: inline-block;">Home</h3>
                     <h3>More events</h3>
                     <h3>Contact Us</h3>
-                    <button>Login</button>
+                    <button id="loginBtn">Login</button>
                 </div>
             </div>
 
@@ -42,10 +42,24 @@
            </div>
 
             
-           <button>Register Now</button>
+           <button id="registerBtn">Register Now</button>
     </div>
   </div>
 
         
+  <script>
+const loginBtn= document.getElementById("loginBtn");
+loginBtn.addEventListener("click", function() {
+    alert("logging in...")
+});
+
+
+const registerBtn=document.getElementById("registerBtn");
+
+registerBtn.addEventListener("click", function() {
+    alert("Loading please wait");
+});
+
+  </script>
     </body>
 </html>
